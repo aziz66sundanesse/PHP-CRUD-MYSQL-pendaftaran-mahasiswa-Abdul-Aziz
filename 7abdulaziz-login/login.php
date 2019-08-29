@@ -37,7 +37,7 @@ if(isset($_POST["login"])){
 </head>
 
 <body>
-	<hi>Halaman Login</hi>
+	<h1>Halaman Login</h1>
 	
 	<?php if(isset($error)):?>
 		<p>username / password salah</p>
