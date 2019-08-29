@@ -52,7 +52,7 @@ if( isset($_POST["submit"])){
 	<h1>ubah data mahasiswa</h1>
 	
 	<form action="" method="POST">
-		<input type="hidden" name="id" value="<?= $mhs["id"]; ?>"
+		<input type="hidden" name="id" value="<?= $mhs["id"]; ?>">
 	<ul>
 		<li>
 			<label for="npm">NPM :</label>
